@@ -1,0 +1,13 @@
+.Home a {
+    margin: 10px;
+    padding: 10px;
+}
+
+.Home a:hover {
+    color: black;
+}
+
+.Home a.active {
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,8 @@
+.CartIcon {
+    opacity: .075;
+}
+
+.CartIcon:hover{
+    opacity: 1;
+    cursor: pointer;
+}
