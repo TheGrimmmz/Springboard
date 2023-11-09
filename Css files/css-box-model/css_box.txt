@@ -1,0 +1,26 @@
+What is the box model?
+CSS box model is a container which contains multiple properties including borders, margin, padding and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements.
+
+What is the difference between margin and padding?
+Margin is the space between elements, padding is the space between content and the border
+
+What is collapsing margin?
+Collapsing margins happen when two vertical margins come in contact with one another. If one margin is greater than the other, then that margin overrides the other, leaving one margin.
+
+What is the purpose of the box-sizing CSS property?
+The CSS box-sizing property allows us to include the padding and border in an element’s total width and height.
+
+What does the outline property do?
+An outline is a line that is drawn around elements, outside the borders, to make the element “stand out”.
+
+How do you add a background image in CSS?
+` background-image: url(“home.png”);`
+
+Given a div with a width of 200px, margin of 20px and padding of 20px, what is the calculated width by the browser?
+240px (200 + 20 padding left + 20 padding right)
+
+Given a div with a height of 100px, border of 10px and padding of 20px, what is the calculated height by the browser?
+160px (100 + 10 border top + 10 border bottom + 20 padding top + 20 padding bottom)
+
+What does margin:auto do?
+You can set the margin property to auto to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins.
